@@ -1,0 +1,105 @@
+.burger {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  top: 15px;
+  right: 3%;
+}
+
+.line {
+  width: 33px;
+  background: #fff;
+  height: 4px;
+  margin: 5px 3px;
+  border-radius: 4px;
+  transition: all 0.5s ease-in-out;
+}
+
+.first-line {
+  transform: translateY(9px) rotate(135deg);
+}
+
+.third-line {
+  transform: translateY(-9px) rotate(-135deg);
+}
+
+.hidden {
+  transform: scale(0);
+}
+
+@media only screen and (max-width: 1300px) {
+  .navbar {
+    flex-direction: column;
+    height: 447px;
+  }
+
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .right-nav {
+    text-align: center;
+  }
+
+  #search {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .h-nav {
+    height: 65px;
+  }
+
+  .visibility {
+    opacity: 0;
+  }
+
+  .box-main {
+    flex-direction: column-reverse;
+    max-width: 100%;
+  }
+
+  .sec-right {
+    flex-direction: column-reverse;
+  }
+
+  .text-big {
+    text-align: center;
+  }
+
+  .text-small {
+    text-align: center;
+  }
+
+  .buttons {
+    text-align: center;
+  }
+
+  .paras {
+    padding: 20px 0;
+  }
+
+  .sec-right {
+    padding: 10px;
+  }
+
+  .second-half {
+    display: flex;
+    margin-top: 116px;
+    justify-content: center;
+  }
+
+  .form-input {
+    width: 90%;
+  }
+}
